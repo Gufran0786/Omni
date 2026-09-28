@@ -22,6 +22,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.AspectRatio
 import androidx.compose.material.icons.filled.Audiotrack
 import androidx.compose.material.icons.filled.BrightnessMedium
@@ -33,7 +34,6 @@ import androidx.compose.material.icons.filled.PictureInPicture
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Speed
 import androidx.compose.material.icons.filled.Subtitles
-import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -194,7 +194,7 @@ fun VideoFullscreenPlayer(
                                 Text("Brightness: ${gestureHud.valuePercent}%", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 16.sp)
                             }
                             "VOLUME" -> {
-                                Icon(Icons.Filled.VolumeUp, null, tint = NeonCyan, modifier = Modifier.size(36.dp))
+                                Icon(Icons.AutoMirrored.Filled.VolumeUp, null, tint = NeonCyan, modifier = Modifier.size(36.dp))
                                 Spacer(modifier = Modifier.height(8.dp))
                                 Text("Volume: ${gestureHud.valuePercent}%", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 16.sp)
                             }
