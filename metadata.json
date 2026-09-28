@@ -1,0 +1,6 @@
+{
+  "name": "OmniPlay Studio",
+  "description": "Unified all-in-one entertainment powerhouse merging Musify music player, Google Photos smart gallery, and PLAYit high-definition video player with Glass UI, AI media search, secure vault, cloud sync, and deep analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
